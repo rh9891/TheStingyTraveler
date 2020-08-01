@@ -25,21 +25,17 @@ request.onerror = event => {
     console.log("There was an error.");
 };
 
-saveRecord = (record) => {
+function saveRecord(record) {
     // Creates a transaction on the database.
     const transaction = db.transaction(["pending"], "readwrite");
     // Accesses the object store.
     const store = transaction.objectStore("pending");
   
-    let nameIndex;
-    let amountIndex;
-    nameIndex = store.index("nameIndex");
-    amountIndex = store.index("amountIndex");
     // Adds a record to the store.
-    store.add({nameIndex: db.name, amountIndex: db.amount});
+    store.add(record);
 }
 
-checkDatabase = () => {
+function checkDatabase() {
     // Opens a transaction on the database.
     const transaction = db.transaction(["pending"], "readwrite");
   
