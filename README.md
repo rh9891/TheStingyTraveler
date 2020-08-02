@@ -18,7 +18,7 @@
 
 If you've found yourself midway through your tropical vacation, strapped for cash, and wondering where the heck your money went, then The Stingy Traveler is here to help. The Stingy Traveler is a budget application that helps the frequent traveler keep track of their spending. It not only helps you figure out where your money is going - as it gives you the ability to input your expenses and gains - but it will make you conscious of your remaining budget, so that you can thoroughly enjoy your vacation. The Stingy Traveler adds dynamism to the existing budget tracking application by allowing for offline access and functionality, so that the user can add expenses and deposits to their budget regardless of their connectivity. When entering transactions offline, the user can populate the total when brought back online.
 
-This progressive web application uses indexedDB, cached files, service workers, and a web app manifest to render an application that is capable of delivering a web experience with native-like capabilities and reliability, despite the lack of connectivity. The application was also built using Express routing, mongoose, NodeJS, and ChartJS.
+This progressive web application uses indexedDB, cached files, service workers, and a web app manifest to render an application that is capable of delivering a web experience with native-like capabilities and reliability, despite the lack of connectivity. The application was built using Express routing, Mongoose, NodeJS, and ChartJS.
 
 ## User Story
 ~~~
@@ -40,13 +40,13 @@ THEN that will be shown on the page and added to their transaction history when 
 
 The following animation demonstrates the service worker and the application functionality with and without an internet connection:
 
-![The Stingy Traveler Preview]()
+![The Stingy Traveler Preview](https://github.com/rh9891/TheStingyTraveler/blob/master/public/assets/images/theStingyTravelerPreview.gif)
 
-To download the above video file of the application functionality, you may do so [here]().
+To download the above video file of the application functionality, you may do so [here](https://github.com/rh9891/TheStingyTraveler/blob/master/public/assets/images/theStingyTravelerPreview.mp4).
 
 ## Links
 
-1. [Deployed Application](https://dashboard.heroku.com/apps/the-stingy-traveler)
+1. [Deployed Application](https://the-stingy-traveler.herokuapp.com)
 
 2. [Github Repository](https://github.com/rh9891/TheStingyTraveler)
 
