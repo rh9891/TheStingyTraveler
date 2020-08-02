@@ -22,7 +22,7 @@ This progressive web application uses indexedDB, cached files, service workers, 
 
 ## User Story
 ~~~
-AS AN avid traveller  
+AS AN avid traveler  
 I WANT to be able to track my withdrawals and deposits with or without a data or internet connection  
 SO THAT my account balance is accurate when I am traveling.  
 ~~~
@@ -36,11 +36,13 @@ THEN that will be shown on the page and added to their transaction history when 
 
 ## Preview of The Stingy Traveler
 
-![The Stingy Traveler Homepage]()
+![The Stingy Traveler Homepage](public/assets/images/theStingyTravelerHomepage.png)
 
-The following animation demonstrates the application manifest, the service worker, and the application functionality without an internet connection:
+The following animation demonstrates the service worker and the application functionality with and without an internet connection:
 
 ![The Stingy Traveler Preview]()
+
+To download the above video file of the application functionality, you may do so [here]().
 
 ## Links
 
@@ -53,6 +55,10 @@ The following animation demonstrates the application manifest, the service worke
 The application requires the following dependencies and/or package managers:
 ~~~
 $ npm install compression
+~~~
+
+~~~
+$ npm install dotenv
 ~~~
 
 ~~~
