@@ -54,27 +54,7 @@ To download the above video file of the application functionality, you may do so
 
 The application requires the following dependencies and/or package managers:
 ~~~
-$ npm install compression
-~~~
-
-~~~
-$ npm install dotenv
-~~~
-
-~~~
-$ npm install express
-~~~
-
-~~~
-$ npm install lite-server
-~~~
-
-~~~
-$ npm install mongoose
-~~~
-
-~~~
-$ npm install morgan
+$ npm install compression dotenv express lite-server mongoose morgan
 ~~~
 
 ## Usage
@@ -93,4 +73,4 @@ If you would like to contribute to this repository, please contact me via [Githu
 
 ## Questions
 
-If you have any questions, comments, or issues regarding this application, please do not hesitate to contact me through [Github](https://github.com/rh9891).
+If you have any questions, comments, or issues regarding this application, please do not hesitate to contact me via [Github](https://github.com/rh9891).
